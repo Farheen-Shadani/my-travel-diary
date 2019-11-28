@@ -1,0 +1,44 @@
+.Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00ebff;
+    color: white;
+    padding: 0em 1em;
+    position: sticky;
+    top: 0;
+}
+
+.my-tabs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+}
+
+@media only screen and (max-width: 800px) {
+    .Header {
+        padding: 0em 0.9em;
+    }
+    .my-tabs {
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .my-tabs {
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .Header {
+        padding: 0em 1em;
+        flex-direction: column;
+    }
+    .my-tabs {
+        width: 100%;
+        justify-content: space-evenly;
+    }
+}

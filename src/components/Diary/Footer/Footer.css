@@ -1,0 +1,9 @@
+.Footer{
+    text-align: center;
+    background-color: #00ebff;
+    color: white;
+    position: sticky;
+    bottom: 0;
+    font-size: 1.2em;
+    font-weight: 600;
+}
